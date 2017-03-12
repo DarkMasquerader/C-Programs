@@ -1,5 +1,5 @@
 #Batch Audio Renamer
-This is my program which reads a list of names from a file and renames all of the files in a chosen directory with those names.
+This is my program which reads a list of names from a file and renames all of the files in a chosen directory with those names (works with files that have spaces).
 
 This program makes use of:
 * Processes
@@ -24,3 +24,6 @@ become an engineer yet again and make my own solution.
 #Potential Updates
 * Implement script to run the program and associate said script with a command
 * Ability to choose location of files to be renamed and the file holding the new names at run-time
+
+#script.sh
+This was my initial attempt at trying to do this through a script, but I quickly ran into issues when it came to the files having spaces in their names (which all of mine did)
